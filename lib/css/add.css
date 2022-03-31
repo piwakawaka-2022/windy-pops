@@ -3,7 +3,7 @@ button {
   padding: 16px;
   border-radius: 16px;
   color: rbga(0,0,0, 0.9);
-  background-color: rgba(128, 250, 244, 0.5);
+  background-color: rgba(238, 180, 255, 0.84);
   position: absolute;
   margin-left: 10px;
 
@@ -13,7 +13,7 @@ button {
   display: flex;
   justify-content: center;
   position: absolute;
-  top: 35vh;
+  top: 25vh;
   left: 40vw;
 }
 
@@ -27,4 +27,9 @@ p {
   top: 50px;
   left: 40vw;
 
+}
+
+
+body {
+  background-color: rgba(205, 255, 251, 0.843);
 }
