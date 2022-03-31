@@ -4,14 +4,27 @@ button {
   border-radius: 16px;
   color: rbga(0,0,0, 0.9);
   background-color: rgba(128, 250, 244, 0.5);
+  position: absolute;
+  margin-left: 10px;
+
 }
 
 .container {
   display: flex;
   justify-content: center;
+  position: absolute;
+  top: 35vh;
+  left: 40vw;
 }
 
 .addTitle {
   display: flex;
   justify-content: center;
+}
+
+p {
+  position: absolute;
+  top: 50px;
+  left: 40vw;
+
 }

@@ -10,12 +10,18 @@
 </head>
 <body>
 <h3 class="addTitle">Woweee! You decided add a compliment! How nice!</h3>
+<p>Enter your compliment here</p>
 <div class="container">
-  <p>Enter your compliment here</p>
   <form class="form" method="post" action="/addComment">
     <label for="newComments"> 
-    <input class="input" type="text">
+
+
+    <!-- <input class="input" type="text" size="40px"> -->
+    <textarea name="roleExplanation" style="width: 150px" rows="3"></textarea>
+
     <button type="submit">Add</button>
+
+  
   </form>
 </div>
 </body>
