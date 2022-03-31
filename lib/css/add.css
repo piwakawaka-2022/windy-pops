@@ -5,7 +5,7 @@ button {
   color: rbga(0,0,0, 0.9);
   background-color: rgba(128, 250, 244, 0.5);
   position: absolute;
-  
+  margin-left: 10px;
 
 }
 
