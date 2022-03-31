@@ -1,14 +1,15 @@
 .submit {
-  font-size: 1rem;
+  font-size: 2rem;
   padding: 16px;
   border-radius: 16px;
+  margin: 5vh, 5vw, 5vh, 5vw;
   color: rbga(0,0,0, 0.9);
   background-color: rgba(238, 180, 255, 0.84);
   display: flex;
   justify-content: center;
   position: absolute;
-  top: 45vh;
-  left: 44vw;
+  top: 36vh;
+  left: 46vw;
 }
 
 .addButton {
@@ -26,19 +27,21 @@
   justify-content: center;
   position: absolute;
   top: 25vh;
-  left: 33vw;
+  left: 37vw;
 }
 
 .addTitle {
   display: flex;
   justify-content: center;
+  font-size: 3rem;
 }
 
 p {
   display: flex;
   position: absolute;
+  font-size: 2rem;
   top: 10vh;
-  left: 35vw;
+  left: 40vw;
 
 }
 
@@ -50,4 +53,5 @@ body {
 .added {
   display: flex;
   justify-content: center;
+  font-size: 2rem;
 }

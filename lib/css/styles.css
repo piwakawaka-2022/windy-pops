@@ -7,12 +7,14 @@ body {
 
 .compliment {
   background-color: #f4cfe9;
-  font-family:
 }
 
+.angry {
+  background-color:rgb(255, 121, 121)
+  font-family: 'Permanent Marker', cursive;
+}
 p {
   font-size: 2rem;
-  font-family: 'Indie Flower', cursive;
 }
 
 .main-container{
@@ -22,10 +24,16 @@ p {
   margin: 0 auto;
 }
 
-.demo-text {
-  position: absolute;
-  top: 20vh;
-  left: 21vw;
+
+
+.angry-text {
+  font-family: 'Permanent Marker', cursive;
+  font-weight: 600px
+  
+}
+
+.compliment-text {
+  font-family: 'Indie Flower', cursive;
 }
 
 .buttons-row {
@@ -44,6 +52,17 @@ button {
   font-family: 'Indie Flower', cursive;
   box-shadow:8px -8px rgb(255, 121, 121);
 }
+
+button:hover {
+  cursor: pointer;
+  transform: scale(1.2); 
+  transform:rotate(12deg);
+
+}
+
+
+/* */
+/* */
 
 
 /* https://fonts.google.com/specimen/Comic+Neue?query=comic COMIC */
