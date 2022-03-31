@@ -1,0 +1,46 @@
+
+body {
+  margin: 0
+
+}
+
+
+.compliment {
+  background-color: #f4cfe9;
+  font-family:
+}
+
+
+.main-container{
+  height: 100vh;
+  width: 100vw;
+  border: 2px solid transparent;
+  margin: 0 auto;
+}
+
+.demo-text {
+  position: absolute;
+  top: 20vh;
+  left: 21vw;
+}
+
+.buttons-row {
+  display: flex;
+  justify-content: center;
+  margin-top: 56vh;
+  gap: 3%;
+}
+
+button {
+  font-size: 1rem;
+  padding: 16px;
+  border-radius: 16px;
+  color: rbga(0,0,0, 0.9);
+  background-color: rgba(128, 250, 244, 0.5);
+}
+
+
+/* https://fonts.google.com/specimen/Comic+Neue?query=comic COMIC */
+
+
+/* https://fonts.google.com/specimen/Shadows+Into+Light  ANGRY */ 
