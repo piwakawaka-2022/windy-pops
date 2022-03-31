@@ -1,0 +1,17 @@
+button {
+  font-size: 1rem;
+  padding: 16px;
+  border-radius: 16px;
+  color: rbga(0,0,0, 0.9);
+  background-color: rgba(128, 250, 244, 0.5);
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.addTitle {
+  display: flex;
+  justify-content: center;
+}
