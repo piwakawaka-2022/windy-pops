@@ -7,12 +7,12 @@ body {
 
 .compliment-container {
   background-color: #f4cfe9;
-  animation: changeColorCA 3s;
+  animation: changeColorCA 1.5s;
 }
 
 .angry-container {
   background-color: rgb(252, 95, 95);
-  animation: changeColorAC 3s;
+  animation: changeColorAC 1.5s;
 }
 
 @keyframes changeColorAC {
