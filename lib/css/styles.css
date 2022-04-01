@@ -7,14 +7,27 @@ body {
 
 .compliment-container {
   background-color: #f4cfe9;
+  animation: changeColorCA 1.5s;
 }
 
 .angry-container {
   background-color: rgb(252, 95, 95);
+  animation: changeColorAC 1.5s;
 }
 
+@keyframes changeColorAC {
+  from {background-color: #f4cfe9;}
+  to {background-color: rgb(252, 95, 95);}
+}
+
+@keyframes changeColorCA {
+  from {background-color: rgb(252, 95, 95);}
+  to {background-color: #f4cfe9;}
+}
+
+
 .angry {
-  background-color:rgb(255, 121, 121)
+  background-color:rgb(255, 121, 121);
   font-family: 'Permanent Marker', cursive;
 }
 

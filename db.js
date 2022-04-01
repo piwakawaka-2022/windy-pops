@@ -20,7 +20,7 @@ function getRandom(db = connection) {
       console.log(random)
       return random
     })
-}
+} //dummy comment
 
 // function to generate random Spicy statement as string
 function getSpicy(db = connection) {
