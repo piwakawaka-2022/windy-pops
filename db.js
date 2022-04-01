@@ -18,6 +18,7 @@ function getRandom(db = connection) {
       const id = getRandomInt(max)
       const random = statements[id].content
       console.log(random)
+      return random
     })
 }
 
@@ -31,6 +32,7 @@ function getSpicy(db = connection) {
       const id = getRandomInt(max)
       const randomSpicy = statements[id].content
       console.log(randomSpicy)
+      return randomSpicy
     })
 }
 
@@ -44,6 +46,7 @@ function getSweet(db = connection) {
       const id = getRandomInt(max)
       const randomSweet = statements[id].content
       console.log(randomSweet)
+      return randomSweet
     })
 }
 
