@@ -47,6 +47,13 @@ function getSweet(db = connection) {
     })
 }
 
+// -------- TODO -------- //
+// function to add new statement into database
+// function to get all statements
+// function to get all Spicy statements
+// function to get all Sweet statements
+// test one route on each page
+
 module.exports = {
   getRandom,
   getSpicy,
