@@ -5,14 +5,19 @@ body {
 }
 
 
-.compliment {
+.compliment-container {
   background-color: #f4cfe9;
+}
+
+.angry-container {
+  background-color: red;
 }
 
 .angry {
   background-color:rgb(255, 121, 121)
   font-family: 'Permanent Marker', cursive;
 }
+
 p {
   font-size: 2rem;
 }
