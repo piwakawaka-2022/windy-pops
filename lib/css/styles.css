@@ -10,7 +10,7 @@ body {
 }
 
 .angry-container {
-  background-color: red;
+  background-color: rgb(252, 95, 95);
 }
 
 .angry {
@@ -19,7 +19,7 @@ body {
 }
 
 p {
-  font-size: 1rem;
+  font-size: 1.2rem;
 }
 
 .main-container{
@@ -53,10 +53,11 @@ button {
   padding: 16px;
   border-radius: 8px;
   color: rbga(0,0,0, 0.9);
-  background-color: rgba(128, 250, 244, 0.5);
+  background-color: rgb(134, 230, 225);
   font-family: 'Indie Flower', cursive;
   box-shadow:8px -8px rgb(255, 121, 121);
 }
+
 
 button:hover {
   cursor: pointer;
