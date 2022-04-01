@@ -19,7 +19,7 @@ function getRandom(db = connection) {
       const random = statements[id].content
       console.log(random)
     })
-}
+} //dummy comment
 
 // function to generate random Spicy statement as string
 function getSpicy(db = connection) {
